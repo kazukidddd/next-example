@@ -1,15 +1,16 @@
+import Footer from "@/components/footer"
+import Header from "@/components/header"
+import Hero from "@/components/hero"
+
 export default function Home() {
   const component = (
     <>
-    <header>HEADER</header>
+      <Header />
+      <main>
+        <Hero />
+      </main>
 
-    <main>
-      <div>      
-        <h1>CUBE</h1>
-        <p>アウトプットしていくサイト</p>
-      </div>
-    </main>
-    <footer>FOOTER</footer>
+      <Footer />
     </>
   )
   return component
