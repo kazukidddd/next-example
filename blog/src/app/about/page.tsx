@@ -12,9 +12,22 @@ export default function About() {
       <p>アウトプットしていくサイト</p>
       <EachPost title="asdf" url="よう" />
       <EachPost {...propsww} />
+      <Decoration>
+        <h1>こんにちは</h1>
+        <p>こんにちは</p>
+      </Decoration>
     </main>
     <footer>FOOTER</footer>
     </>
   )
   return component
+}
+
+
+function Decoration({children}: {children: React.ReactNode}) {
+  return (
+    <div style={{ color: 'red'}}>
+     {children}
+    </div>
+  )
 }
