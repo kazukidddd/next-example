@@ -1,12 +1,9 @@
 import Hero from "@/components/hero"
-import Layout from "@/components/layout"
 
-export default function Home() {
+export default function Page() {
   const component = (
     <>
-      <Layout>
-        <Hero />
-      </Layout>
+      <Hero />
     </>
   )
   return component
