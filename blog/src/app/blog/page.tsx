@@ -4,8 +4,8 @@ import Hero from "@/components/hero"
 export default function Page() {
   return (
     <Hero 
-      title="About Page" 
-      subtitle="This is the about page"
+      title="Blog Page" 
+      subtitle="This is the blog page"
     />
-  )
+    )
 }
