@@ -16,3 +16,12 @@
   composes: text;
   color: lightPink;
 }
+
+.color {
+  color: lightpink;
+}
+
+.textPastelDotted {
+  composes: text color;
+  border-style: dotted;
+}
