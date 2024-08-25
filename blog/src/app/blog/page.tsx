@@ -6,7 +6,6 @@ export default function Page() {
     <Hero 
       title="Blog Page" 
       subtitle="This is the blog page"
-      imageOn={false}
     />
     )
 }

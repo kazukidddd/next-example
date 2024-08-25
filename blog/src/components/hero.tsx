@@ -1,4 +1,4 @@
-export default function Hero({title, subtitle, imageOn = false}: {title: string, subtitle: string, imageOn: boolean}) {
+export default function Hero({title, subtitle, imageOn = false}: {title: string, subtitle: string, imageOn?: boolean}) {
 	return (
 		<div>
 			<h1>{title}</h1>
